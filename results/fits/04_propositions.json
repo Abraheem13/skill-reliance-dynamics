@@ -1,0 +1,9 @@
+{
+ "P1_invariance": true,
+ "P2_baseline": true,
+ "P3_necessary_condition": true,
+ "P3_counterexamples": 0,
+ "P4_saddle_node": true,
+ "kappa_star": 0.6625704041029055,
+ "P5_divergence": true
+}

@@ -1,0 +1,14 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+pyyaml>=6.0
+tqdm>=4.66
+pytest>=7.4
+# added at step 03: chess data
+python-chess>=1.10
+zstandard>=0.22
+requests>=2.31
+# added at step 05: Bayesian fitting
+# numpyro>=0.13
+# arviz>=0.17

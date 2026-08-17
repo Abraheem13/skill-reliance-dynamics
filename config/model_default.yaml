@@ -1,0 +1,25 @@
+# Reference parameter set. NOT fitted values - these are the illustrative
+# parameters used for the day-1 analytic results. Fitted values land in
+# results/fits/ after step 05.
+g: 0.40        # practice gain rate
+delta: 0.08    # forgetting rate
+kappa: 0.90    # AI capability relative to learner
+beta: 8.0      # steepness of reliance response
+c: 2.0         # self-confidence suppression of reliance
+lam: 1.5       # reliance adaptation rate
+r_cap: 1.0     # institutional ceiling on reliance
+a: 0.9         # completeness of AI substitution
+
+# Domain overrides. r_cap is the key structural difference between domains:
+# chess bans engines during rated play, education increasingly does not.
+domains:
+  chess_otb:
+    r_cap: 0.05   # engines banned in tournament play
+    g: 0.60       # high practice frequency
+  education:
+    r_cap: 0.95   # homework largely unsupervised
+    g: 0.35
+  colonoscopy:
+    r_cap: 0.90   # AI present at every procedure
+    g: 0.25
+    delta: 0.12
