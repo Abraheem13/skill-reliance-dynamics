@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import numpy as np
 
+MIN_POSITIONS_PER_GAME = 8     # below this, per-game ACPL is noise
 MIN_POSITIONS_PER_YEAR = 150
 MIN_GAMES_PER_YEAR = 6
 
@@ -19,7 +20,7 @@ def games_to_long(rows: list) -> pd.DataFrame:
         for side in ("white", "black"):
             acpl = r.get(f"{side}_acpl")
             n = r.get(f"{side}_n_positions") or 0
-            if acpl is None or n == 0:
+            if acpl is None or n < MIN_POSITIONS_PER_GAME:
                 continue
             try:
                 elo = int(r.get(f"{side}_elo") or 0)

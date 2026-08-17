@@ -35,7 +35,13 @@ if a.harvest:
 
 if a.screen:
     users = json.load(open(CAND))
-    survivors, checked = [], 0
+    # resume from any previous run
+    survivors = json.load(open(COHORT)) if Path(COHORT).exists() else []
+    done = set(json.load(open(COHORT + ".checked"))) if Path(COHORT + ".checked").exists() else set()
+    checked = 0
+    if survivors or done:
+        print(f"  resuming: {len(survivors)} survivors, {len(done)} already checked")
+    users = [u for u in users if u not in done]
     for u in users:
         if len(survivors) >= a.limit:
             break
@@ -45,10 +51,13 @@ if a.screen:
                 survivors.append(u)
         except Exception as e:
             print(f"    skip {u}: {e}")
+        done.add(u)
         time.sleep(a.sleep)
-        if checked % 25 == 0:
+        if checked % 10 == 0:
+            json.dump(survivors, open(COHORT, "w"), indent=1)
+            json.dump(sorted(done), open(COHORT + ".checked", "w"))
             print(f"    checked {checked}, survivors {len(survivors)} "
-                  f"({100*len(survivors)/checked:.0f}%)")
+                  f"({100*len(survivors)/checked:.0f}%)", flush=True)
     json.dump(survivors, open(COHORT, "w"), indent=1)
     print(f"\n  cohort: {len(survivors)} accounts active in {a.late} "
           f"out of {checked} checked ({100*len(survivors)/max(checked,1):.0f}% survival)")
