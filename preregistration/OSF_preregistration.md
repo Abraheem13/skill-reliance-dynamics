@@ -131,3 +131,13 @@ coded by a second person to estimate agreement (Cohen's kappa reported).
 
 Any deviation from this document will be reported as a numbered list in the
 paper's supplementary material, with the date and reason for each.
+
+## 9. Deviations log
+
+1. **2026-08-18** — `BOOK_PLY` reduced from 24 to 16 and a
+   `MIN_POSITIONS_PER_GAME = 8` filter added. Reason: at ply 24 the mean was
+   13.6 scored positions per game (min 1), producing per-game ACPL values of
+   0 and 384 that were pure noise (SD 50.9). After the change: mean 17.7
+   positions, SD 31.2, range 7.8–168. Made on a 200-game pilot of 2025 data
+   only, BEFORE any two-year comparison was computed and before the 2014 data
+   existed. No outcome was observed when this decision was made.
