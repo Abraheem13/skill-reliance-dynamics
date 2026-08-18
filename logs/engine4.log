@@ -1,171 +1,136 @@
 nohup: ignoring input
   games to analyse : 59835
-  workers          : 4   depth: 12
-Process ForkPoolWorker-3:
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 131, in worker
-    put((job, i, result))
-    ~~~^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
+  workers          : 32   depth: 12
+    500/59835  0.6 min  14.0 games/s  eta 70 min
+    1000/59835  1.1 min  15.2 games/s  eta 65 min
+    1500/59835  1.5 min  16.3 games/s  eta 60 min
+    2000/59835  2.0 min  16.5 games/s  eta 58 min
+    2500/59835  2.5 min  16.5 games/s  eta 58 min
+    3000/59835  3.0 min  16.7 games/s  eta 57 min
+    3500/59835  3.5 min  16.9 games/s  eta 56 min
+    4000/59835  3.9 min  16.9 games/s  eta 55 min
+    4500/59835  4.4 min  17.0 games/s  eta 54 min
+    5000/59835  4.9 min  17.0 games/s  eta 54 min
+    5500/59835  5.4 min  17.1 games/s  eta 53 min
+    6000/59835  5.9 min  17.0 games/s  eta 53 min
+    6500/59835  6.3 min  17.2 games/s  eta 52 min
+    7000/59835  6.8 min  17.2 games/s  eta 51 min
+    7500/59835  7.3 min  17.1 games/s  eta 51 min
+    8000/59835  7.8 min  17.2 games/s  eta 50 min
+    8500/59835  8.3 min  17.1 games/s  eta 50 min
+    9000/59835  8.8 min  17.1 games/s  eta 49 min
+    9500/59835  9.2 min  17.2 games/s  eta 49 min
+    10000/59835  9.7 min  17.1 games/s  eta 49 min
+    10500/59835  10.2 min  17.1 games/s  eta 48 min
+    11000/59835  10.7 min  17.1 games/s  eta 48 min
+    11500/59835  11.2 min  17.1 games/s  eta 47 min
+    12000/59835  11.6 min  17.2 games/s  eta 46 min
+    12500/59835  12.1 min  17.3 games/s  eta 46 min
+    13000/59835  12.5 min  17.4 games/s  eta 45 min
+    13500/59835  13.0 min  17.3 games/s  eta 45 min
+    14000/59835  13.4 min  17.4 games/s  eta 44 min
+    14500/59835  13.9 min  17.4 games/s  eta 44 min
+    15000/59835  14.4 min  17.4 games/s  eta 43 min
+    15500/59835  14.9 min  17.4 games/s  eta 43 min
+    16000/59835  15.3 min  17.4 games/s  eta 42 min
+    16500/59835  15.8 min  17.4 games/s  eta 41 min
+    17000/59835  16.2 min  17.4 games/s  eta 41 min
+    17500/59835  16.8 min  17.4 games/s  eta 41 min
+    18000/59835  17.2 min  17.4 games/s  eta 40 min
+    18500/59835  17.7 min  17.4 games/s  eta 40 min
+    19000/59835  18.2 min  17.4 games/s  eta 39 min
+    19500/59835  18.6 min  17.4 games/s  eta 39 min
+    20000/59835  19.1 min  17.4 games/s  eta 38 min
+    20500/59835  19.6 min  17.5 games/s  eta 38 min
+    21000/59835  20.0 min  17.5 games/s  eta 37 min
+    21500/59835  20.5 min  17.5 games/s  eta 37 min
+    22000/59835  21.0 min  17.5 games/s  eta 36 min
+    22500/59835  21.4 min  17.5 games/s  eta 36 min
+    23000/59835  21.9 min  17.5 games/s  eta 35 min
+    23500/59835  22.4 min  17.5 games/s  eta 35 min
+    24000/59835  22.8 min  17.5 games/s  eta 34 min
+    24500/59835  23.3 min  17.5 games/s  eta 34 min
+    25000/59835  23.7 min  17.5 games/s  eta 33 min
+    25500/59835  24.2 min  17.6 games/s  eta 33 min
+    26000/59835  24.6 min  17.6 games/s  eta 32 min
+    26500/59835  25.1 min  17.6 games/s  eta 32 min
+    27000/59835  25.6 min  17.6 games/s  eta 31 min
+    27500/59835  26.0 min  17.6 games/s  eta 31 min
+    28000/59835  26.5 min  17.6 games/s  eta 30 min
+    28500/59835  27.0 min  17.6 games/s  eta 30 min
+    29000/59835  27.4 min  17.6 games/s  eta 29 min
+    29500/59835  27.9 min  17.6 games/s  eta 29 min
+    30000/59835  28.3 min  17.7 games/s  eta 28 min
+    30500/59835  28.7 min  17.7 games/s  eta 28 min
+    31000/59835  29.2 min  17.7 games/s  eta 27 min
+    31500/59835  29.7 min  17.7 games/s  eta 27 min
+    32000/59835  30.1 min  17.7 games/s  eta 26 min
+    32500/59835  30.6 min  17.7 games/s  eta 26 min
+    33000/59835  31.1 min  17.7 games/s  eta 25 min
+    33500/59835  31.6 min  17.7 games/s  eta 25 min
+    34000/59835  32.0 min  17.7 games/s  eta 24 min
+    34500/59835  32.5 min  17.7 games/s  eta 24 min
+    35000/59835  33.0 min  17.7 games/s  eta 23 min
+    35500/59835  33.4 min  17.7 games/s  eta 23 min
+    36000/59835  33.9 min  17.7 games/s  eta 22 min
+    36500/59835  34.4 min  17.7 games/s  eta 22 min
+    37000/59835  34.9 min  17.7 games/s  eta 22 min
+    37500/59835  35.4 min  17.7 games/s  eta 21 min
+    38000/59835  35.8 min  17.7 games/s  eta 21 min
+    38500/59835  36.3 min  17.7 games/s  eta 20 min
+    39000/59835  36.8 min  17.7 games/s  eta 20 min
+    39500/59835  37.3 min  17.7 games/s  eta 19 min
+    40000/59835  37.7 min  17.7 games/s  eta 19 min
+    40500/59835  38.2 min  17.7 games/s  eta 18 min
+    41000/59835  38.7 min  17.7 games/s  eta 18 min
+    41500/59835  39.1 min  17.7 games/s  eta 17 min
+    42000/59835  39.6 min  17.7 games/s  eta 17 min
+    42500/59835  40.1 min  17.7 games/s  eta 16 min
+    43000/59835  40.5 min  17.7 games/s  eta 16 min
+    43500/59835  40.9 min  17.7 games/s  eta 15 min
+    44000/59835  41.4 min  17.7 games/s  eta 15 min
+    44500/59835  41.8 min  17.7 games/s  eta 14 min
+    45000/59835  42.3 min  17.7 games/s  eta 14 min
+    45500/59835  42.8 min  17.7 games/s  eta 13 min
+    46000/59835  43.3 min  17.7 games/s  eta 13 min
+    46500/59835  43.8 min  17.7 games/s  eta 13 min
+    47000/59835  44.3 min  17.7 games/s  eta 12 min
+    47500/59835  44.8 min  17.7 games/s  eta 12 min
+    48000/59835  45.3 min  17.7 games/s  eta 11 min
+    48500/59835  45.7 min  17.7 games/s  eta 11 min
+    49000/59835  46.2 min  17.7 games/s  eta 10 min
+    49500/59835  46.7 min  17.7 games/s  eta 10 min
+    50000/59835  47.2 min  17.7 games/s  eta 9 min
+    50500/59835  47.7 min  17.7 games/s  eta 9 min
+    51000/59835  48.2 min  17.6 games/s  eta 8 min
+    51500/59835  48.7 min  17.6 games/s  eta 8 min
+    52000/59835  49.2 min  17.6 games/s  eta 7 min
+    52500/59835  49.6 min  17.6 games/s  eta 7 min
+    53000/59835  50.1 min  17.6 games/s  eta 6 min
+    53500/59835  50.6 min  17.6 games/s  eta 6 min
+    54000/59835  51.0 min  17.6 games/s  eta 6 min
+    54500/59835  51.5 min  17.6 games/s  eta 5 min
+    55000/59835  51.9 min  17.7 games/s  eta 5 min
+    55500/59835  52.4 min  17.6 games/s  eta 4 min
+    56000/59835  52.9 min  17.6 games/s  eta 4 min
+    56500/59835  53.4 min  17.6 games/s  eta 3 min
+    57000/59835  53.9 min  17.6 games/s  eta 3 min
+    57500/59835  54.3 min  17.6 games/s  eta 2 min
+    58000/59835  54.8 min  17.6 games/s  eta 2 min
+    58500/59835  55.3 min  17.6 games/s  eta 1 min
+    59000/59835  55.7 min  17.6 games/s  eta 1 min
+    59500/59835  56.2 min  17.6 games/s  eta 0 min
 
-During handling of the above exception, another exception occurred:
+  analysed      : 59835 games in 56.7 min
+  panel rows    : 2166
+  WITHIN-PLAYER : 1547 rows, 511 players
 
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 136, in worker
-    put((job, i, (False, wrapped)))
-    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
-Process ForkPoolWorker-1:
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 131, in worker
-    put((job, i, result))
-    ~~~^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
+            acpl               S      
+           mean count      mean count
+year                                 
+2014  55.773796   327  0.583875   327
+2018  55.626136   369  0.585217   369
+2021  55.173528   424  0.589332   424
+2025  54.063252   427  0.599425   427
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 136, in worker
-    put((job, i, (False, wrapped)))
-    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
-Process ForkPoolWorker-2:
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 131, in worker
-    put((job, i, result))
-    ~~~^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 136, in worker
-    put((job, i, (False, wrapped)))
-    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
-Process ForkPoolWorker-4:
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 131, in worker
-    put((job, i, result))
-    ~~~^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/pool.py", line 136, in worker
-    put((job, i, (False, wrapped)))
-    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/queues.py", line 397, in put
-    self._writer.send_bytes(obj)
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 200, in send_bytes
-    self._send_bytes(m[offset:offset + size])
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 427, in _send_bytes
-    self._send(header + buf)
-    ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "/application/miniconda/25.7.0/lib/python3.13/multiprocessing/connection.py", line 384, in _send
-    n = write(self._handle, buf)
-BrokenPipeError: [Errno 32] Broken pipe
+-> data/processed/panel_within.csv
