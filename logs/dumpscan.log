@@ -40,3 +40,20 @@ pass 1: 2025 dump
     72M games scanned, 14328 kept, 41 min
     74M games scanned, 14385 kept, 42 min
     76M games scanned, 14460 kept, 43 min
+    78M games scanned, 14544 kept, 44 min
+    80M games scanned, 14600 kept, 45 min
+    82M games scanned, 14677 kept, 46 min
+    84M games scanned, 14730 kept, 47 min
+    86M games scanned, 14770 kept, 48 min
+    88M games scanned, 14822 kept, 49 min
+    90M games scanned, 14894 kept, 50 min
+    92M games scanned, 14983 kept, 51 min
+    94M games scanned, 15036 kept, 52 min
+    96M games scanned, 15094 kept, 53 min
+  2025: scanned 97512351 games, kept 15121 from 636 players (53 min)
+  survival: 636/4000 (15.9%)
+
+pass 2: 2014 dump
+  2014: scanned 795173 games, kept 17697 from 621 players (0 min)
+
+  PLAYERS IN BOTH YEARS: 621

@@ -1,0 +1,80 @@
+nohup: ignoring input
+  games to analyse : 32818
+  workers          : 4   depth: 12
+    500/32818  4.9 min  1.7 games/s  eta 317 min
+    1000/32818  10.4 min  1.6 games/s  eta 332 min
+    1500/32818  15.2 min  1.6 games/s  eta 318 min
+    2000/32818  20.8 min  1.6 games/s  eta 321 min
+    2500/32818  26.3 min  1.6 games/s  eta 318 min
+    3000/32818  31.4 min  1.6 games/s  eta 312 min
+    3500/32818  36.6 min  1.6 games/s  eta 306 min
+    4000/32818  42.1 min  1.6 games/s  eta 303 min
+    4500/32818  47.3 min  1.6 games/s  eta 297 min
+    5000/32818  52.5 min  1.6 games/s  eta 292 min
+    5500/32818  57.9 min  1.6 games/s  eta 288 min
+    6000/32818  63.3 min  1.6 games/s  eta 283 min
+    6500/32818  68.6 min  1.6 games/s  eta 278 min
+    7000/32818  73.7 min  1.6 games/s  eta 272 min
+    7500/32818  79.3 min  1.6 games/s  eta 268 min
+    8000/32818  84.9 min  1.6 games/s  eta 263 min
+    8500/32818  90.4 min  1.6 games/s  eta 259 min
+    9000/32818  95.6 min  1.6 games/s  eta 253 min
+    9500/32818  100.9 min  1.6 games/s  eta 248 min
+    10000/32818  106.4 min  1.6 games/s  eta 243 min
+    10500/32818  112.1 min  1.6 games/s  eta 238 min
+    11000/32818  117.2 min  1.6 games/s  eta 232 min
+    11500/32818  122.4 min  1.6 games/s  eta 227 min
+    12000/32818  127.2 min  1.6 games/s  eta 221 min
+    12500/32818  132.4 min  1.6 games/s  eta 215 min
+    13000/32818  137.3 min  1.6 games/s  eta 209 min
+    13500/32818  142.9 min  1.6 games/s  eta 205 min
+    14000/32818  148.1 min  1.6 games/s  eta 199 min
+    14500/32818  153.5 min  1.6 games/s  eta 194 min
+    15000/32818  158.7 min  1.6 games/s  eta 189 min
+    15500/32818  164.2 min  1.6 games/s  eta 183 min
+    16000/32818  169.3 min  1.6 games/s  eta 178 min
+    16500/32818  174.8 min  1.6 games/s  eta 173 min
+    17000/32818  180.2 min  1.6 games/s  eta 168 min
+    17500/32818  186.0 min  1.6 games/s  eta 163 min
+    18000/32818  191.5 min  1.6 games/s  eta 158 min
+    18500/32818  197.2 min  1.6 games/s  eta 153 min
+    19000/32818  202.5 min  1.6 games/s  eta 147 min
+    19500/32818  208.0 min  1.6 games/s  eta 142 min
+    20000/32818  213.6 min  1.6 games/s  eta 137 min
+    20500/32818  219.4 min  1.6 games/s  eta 132 min
+    21000/32818  224.8 min  1.6 games/s  eta 127 min
+    21500/32818  229.7 min  1.6 games/s  eta 121 min
+    22000/32818  235.1 min  1.6 games/s  eta 116 min
+    22500/32818  240.9 min  1.6 games/s  eta 110 min
+    23000/32818  246.8 min  1.6 games/s  eta 105 min
+    23500/32818  252.3 min  1.6 games/s  eta 100 min
+    24000/32818  258.0 min  1.6 games/s  eta 95 min
+    24500/32818  263.4 min  1.6 games/s  eta 89 min
+    25000/32818  269.1 min  1.5 games/s  eta 84 min
+    25500/32818  274.6 min  1.5 games/s  eta 79 min
+    26000/32818  279.9 min  1.5 games/s  eta 73 min
+    26500/32818  285.3 min  1.5 games/s  eta 68 min
+    27000/32818  290.6 min  1.5 games/s  eta 63 min
+    27500/32818  295.7 min  1.6 games/s  eta 57 min
+    28000/32818  300.9 min  1.6 games/s  eta 52 min
+    28500/32818  306.4 min  1.6 games/s  eta 46 min
+    29000/32818  311.8 min  1.6 games/s  eta 41 min
+    29500/32818  317.5 min  1.5 games/s  eta 36 min
+    30000/32818  322.9 min  1.5 games/s  eta 30 min
+    30500/32818  327.9 min  1.6 games/s  eta 25 min
+    31000/32818  333.3 min  1.6 games/s  eta 20 min
+    31500/32818  338.2 min  1.6 games/s  eta 14 min
+    32000/32818  343.6 min  1.6 games/s  eta 9 min
+    32500/32818  349.2 min  1.6 games/s  eta 3 min
+
+  analysed      : 32818 games in 352.6 min
+  panel rows    : 1272
+  WITHIN-PLAYER : 508 rows, 254 players
+
+            acpl               S      
+           mean count      mean count
+year                                 
+2014  55.485419   254  0.586496   254
+2025  53.632909   254  0.603337   254
+
+-> data/processed/panel_within.csv
