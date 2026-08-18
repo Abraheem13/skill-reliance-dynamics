@@ -156,3 +156,11 @@ paper's supplementary material, with the date and reason for each.
    same students. This is a demonstration that the predicted divergence exists,
    NOT a test of its generality. The full review remains future work and the
    paper states this in the Limitations section.
+
+4. **2026-08-18** — H3 test statistic changed from a difference test to a TOST
+   equivalence test (SESOI = 3cp). Reason: Proposition 3 predicts the ABSENCE of
+   decline, which is an equivalence claim; a significant difference test was
+   never the appropriate evidence. The difference test is reported alongside,
+   including the two specifications in which it weakened. The equivalence test
+   holds in all six specifications. This change was made after seeing the
+   robustness output and is disclosed as such.

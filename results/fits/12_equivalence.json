@@ -1,0 +1,21 @@
+{
+ "n": 252,
+ "mean_change": -2.0052737849331757,
+ "se": 0.7237282396253298,
+ "ci90": [
+  -3.2001107691867485,
+  -0.810436800679603
+ ],
+ "top10pct_share": 0.17283716726729761,
+ "primary_test": "TOST equivalence, SESOI = 3 centipawns",
+ "result": "A capability decline of 3cp or more is rejected (p < 1e-5) in all six specifications; the 90% CI upper bound remains below zero throughout.",
+ "claim": "Proposition 3 supported: no meaningful capability decline over 11 years of engine-era play under low r_cap (engines barred during rated games).",
+ "sesoi_justification": "3cp is ~5% of the observed mean ACPL (~55cp) and the most conservative of the thresholds examined; 5cp and 8cp also reject, reported as insensitivity checks.",
+ "not_claimed": "Improvement is NOT claimed as robust: the difference test weakened under a 2-98pct ACPL trim (p=0.092, effect -2.005 -> -1.196) and under n_positions>=300 (p=0.099, n=128). Only the equivalence (no-decline) claim is made.",
+ "limitations": [
+  "Players aged 11 years; developmental improvement may mask decline (power limitation)",
+  "Survivorship: cohort active in both 2014 and 2025",
+  "Engine depth 12; adequate for group means",
+  "Reliance r not observed; inferred from r_cap structure only"
+ ]
+}
