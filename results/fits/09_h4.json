@@ -33,5 +33,8 @@
   "mean_diff": -0.9722500000000001,
   "t": -3.241373562260377,
   "p": 0.190506439344192
- }
+ },
+ "status": "SINGLE-STUDY DEMONSTRATION, not a meta-analysis",
+ "caveat": "k=2 effect-size pairs from ONE RCT (Bastani et al. 2025, PNAS 122(26):e2422633122, n=2848 obs, 839 students). The between-condition p=0.016 assumes independence that does not hold; the within-study test (p=0.19, k=2) is the correct one and is underpowered. Reported as a worked example motivating the full systematic review, which remains future work.",
+ "r_cap_evidence": "GPT Base (unconstrained) exam d=-0.195; GPT Tutor (prompt-constrained, i.e. lower r_cap) exam d=-0.014 (null). Consistent with Proposition 3: reducing the reliance ceiling removes the capability cost while preserving the assisted-performance gain."
 }

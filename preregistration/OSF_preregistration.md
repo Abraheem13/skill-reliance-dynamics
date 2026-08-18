@@ -148,3 +148,11 @@ paper's supplementary material, with the date and reason for each.
    The intercept is now recomputed against the corrected slope. Affects only
    the parameter fit, not the H3 result. Corrected values: S_eq = 0.648,
    delta/g = 0.516.
+
+3. **2026-08-18** — H4 scope reduced. The preregistered systematic review of the
+   GenAI-in-education literature was not completed within the project timeline.
+   In its place we report a single-study worked example (Bastani et al. 2025,
+   PNAS), which reports both an AI-present and an AI-removed outcome for the
+   same students. This is a demonstration that the predicted divergence exists,
+   NOT a test of its generality. The full review remains future work and the
+   paper states this in the Limitations section.
