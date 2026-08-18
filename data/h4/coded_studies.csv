@@ -1,0 +1,3 @@
+study_id,authors,year,title,doi,n_treatment,n_control,design,learner_level,domain,outcome_name,outcome_timing,ai_condition,effect_size,es_type,se,ci_low,ci_high,mean_t,sd_t,mean_c,sd_c,notes,coder,date_coded
+EXAMPLE01,Smith & Lee,2024,Example study,10.xxxx/xxxx,45,44,RCT,undergraduate,writing,essay quality,immediate,AI_PRESENT,0.62,cohens_d,0.21,0.21,1.03,,,,,tool open during essay,AR,2026-08-18
+EXAMPLE02,Smith & Lee,2024,Example study,10.xxxx/xxxx,45,44,RCT,undergraduate,writing,closed-book retest,delayed_2wk,AI_REMOVED,0.11,cohens_d,0.21,-0.30,0.52,,,,,same study; tool withheld,AR,2026-08-18
