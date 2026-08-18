@@ -17,5 +17,10 @@
  "engine": "Stockfish 18",
  "depth": 12,
  "book_ply": 16,
- "eval_clamp": 300
+ "eval_clamp": 300,
+ "elo_2014": 1694.846328866603,
+ "elo_2025": 1849.2444098647102,
+ "elo_change": 154.39808099810716,
+ "elo_sd": 147.68777275126806,
+ "note": "Elo rose 154pts while ACPL improved only 1.85cp - evidence of rating inflation; ACPL is the absolute measure"
 }
