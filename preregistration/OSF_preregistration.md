@@ -141,3 +141,10 @@ paper's supplementary material, with the date and reason for each.
    positions, SD 31.2, range 7.8–168. Made on a 200-game pilot of 2025 data
    only, BEFORE any two-year comparison was computed and before the 2014 data
    existed. No outcome was observed when this decision was made.
+
+2. **2026-08-18** — Corrected an implementation error in the errors-in-variables
+   fit: the attenuation-corrected slope had been combined with the uncorrected
+   OLS intercept, yielding S_eq = 1.18 (outside [0,1]) and a negative delta.
+   The intercept is now recomputed against the corrected slope. Affects only
+   the parameter fit, not the H3 result. Corrected values: S_eq = 0.648,
+   delta/g = 0.516.
